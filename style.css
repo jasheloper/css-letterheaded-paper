@@ -16,11 +16,12 @@
     height: 297mm;
     margin: 20px auto;
     position: relative;
-    background: url(top-image.png) top no-repeat, url(bottom-image.png) bottom no-repeat;
+    background: url(top-image.png) top no-repeat, url(bottom-image.png) bottom no-repeat, linear-gradient(to bottom,rgba(217, 216, 216, 0.8),white 55%,rgba(217, 216, 216, 0.8)) center center / 100% no-repeat;
 
     /* 
+
     
-    linear-gradient(105deg, rgba(255, 255, 255, 0.2) 39%, rgba(51, 56, 57, 1) 96%) center center / 400px 200px no-repeat 
+    url(top-image.png) top no-repeat, url(bottom-image.png) bottom no-repeat
       
       */
   }
