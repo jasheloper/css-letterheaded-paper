@@ -41,11 +41,12 @@
   /* Your CSS below here */
 
   article.background {
-    /* Fallback for older browsers */
+    /* Support for older browsers */
     background-image: url(top-image.png);
     background-repeat: no-repeat;
     background-position: top;
 
+    /* For modern browsers */
     background: 
     url(top-image.png) top no-repeat, 
     url(bottom-image.png) bottom no-repeat, 
