@@ -50,26 +50,20 @@
     background: 
     url(top-image.png) top no-repeat, 
     url(bottom-image.png) bottom no-repeat,
-    linear-gradient(to bottom,
-    rgba(158, 158, 158, 0.8),
-    3%,
-    white 80%,
-    rgba(158, 158, 158, 0.8)
-    ) center center / 100% no-repeat; 
+    linear-gradient(
+      to bottom,
+      rgb(166, 166, 166), 170px,
+      rgb(255, 255, 255), 90%,
+      rgb(166, 166, 166)
+    );
+    /* background-color: white; */
+
   }
 
   
-  /* 
+/* 
 
-  https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient
-  
-  draft
-  
-  background: 
-  url(top-image.png) top no-repeat, 
-  url(bottom-image.png) bottom no-repeat, 
-    linear-gradient(to bottom,
-    rgba(217, 216, 216, 0.8),
-    rgba(217, 216, 216, 0.8)) center center / 100% no-repeat; 
-    
-    */
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
+
+
+*/
