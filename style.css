@@ -57,5 +57,6 @@
       rgba(166, 166, 166, 0.801)
     );
     background-color: white;
-
+    border-top: 1mm #F50E02 solid;
+    border-bottom: 1mm #F50E02 solid;
   }
