@@ -1,5 +1,7 @@
-# css-letterheaded-paper
-CSS project
+# Final Project (preview)
+![Creating fancy letterheaded paper](preview.png)
+
+Link: https://jasheloper.github.io/css-letterheaded-paper/
 
 <br>
 
