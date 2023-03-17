@@ -52,18 +52,10 @@
     url(bottom-image.png) bottom no-repeat,
     linear-gradient(
       to bottom,
-      rgb(166, 166, 166), 170px,
-      rgb(255, 255, 255), 90%,
-      rgb(166, 166, 166)
+      rgba(166, 166, 166, 0.801), 170px,
+      rgb(255, 255, 255, 0), 90%,
+      rgba(166, 166, 166, 0.801)
     );
-    /* background-color: white; */
+    background-color: white;
 
   }
-
-  
-/* 
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-
-
-*/
