@@ -40,6 +40,11 @@
   
   /* Your CSS below here */
 
+  h1.background {
+    background: url(logo.png);
+    filter: drop-shadow(5px 3px 2px #363637);
+  }
+
   article.background {
     /* Support for older browsers */
     background-image: url(top-image.png);
