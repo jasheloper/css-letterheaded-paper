@@ -42,7 +42,13 @@
 
   h1.background {
     background: url(logo.png);
-    filter: drop-shadow(5px 3px 2px #363637);
+
+    /* drop shadow method */
+    /* filter: drop-shadow(5px 3px 2px #363637); */
+
+    /* box shadow method - slightly more cross-browser compatible */
+    box-shadow: 5px 5px 5px #363637;
+    border-radius: 50%;
   }
 
   article.background {
