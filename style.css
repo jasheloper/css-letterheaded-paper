@@ -44,11 +44,11 @@
     background: url(logo.png);
 
     /* drop shadow method */
-    /* filter: drop-shadow(5px 3px 2px #363637); */
+    /* filter: drop-shadow(3px 3px 3px #363637); */
 
     /* box shadow method - slightly more cross-browser compatible */
-    box-shadow: 5px 5px 5px #363637;
-    border-radius: 50%;
+    box-shadow: 3px 3px 3px #363637;
+    border-radius: 64%;
   }
 
   article.background {
@@ -63,9 +63,10 @@
     url(bottom-image.png) bottom no-repeat,
     linear-gradient(
       to bottom,
-      rgba(166, 166, 166, 0.801), 170px,
-      rgb(255, 255, 255, 0), 90%,
-      rgba(166, 166, 166, 0.801)
+      rgba(0,0,0,0.2), 
+      rgba(0,0,0,0) 20%, 
+      rgba(0,0,0,0) 80%, 
+      rgba(0,0,0,0.2)
     );
     background-color: white;
     border-top: 1mm #F50E02 solid;
